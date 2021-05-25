@@ -186,10 +186,10 @@
 					<br>
 					<h6>Thể loại: ';
 				
-				$hostName = 'localhost';
-				$userName = 'root';
-				$passWord = '';
-				$databaseName = 'bookstore';
+				$hostName = 'remotemysql.com';
+				$userName = 'gZqNASS21b';
+				$passWord = '0jDLuMhgCn';
+				$databaseName = 'gZqNASS21b';
 				$connect1 = mysqli_connect($hostName, $userName, $passWord, $databaseName);
 				if (!$connect1) {
 					exit('Kết nối không thành công!');
