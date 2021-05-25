@@ -82,7 +82,7 @@ session_start();
       if($isbn!=0) {
         $_SESSION['gh'][$isbn] = 1;
         setcookie($isbn, 1, time()+3600, "/", "", 0);
-        echo $isbn . " " . $_COOKIE[2] . "<br>";
+        
       }
         if(!isset($_SESSION['gh']) || empty($_SESSION['gh'])) {
         // echo 'chua co san pham nao';
